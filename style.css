@@ -1,0 +1,105 @@
+@font-face{
+    font-family: "Baskervville-Regular";
+    src: url(Baskervville-Regular.otf);
+}
+.hNav{
+    background-color: rgb(80, 122, 248);
+    color: white;
+    width: auto;
+    height: 150px;
+}
+
+ul.nav-list{
+    list-style-type: none;
+    font-family: sans-serif;
+}
+ul.nav-list li{
+    float: left;
+    margin-top: 1em;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+ul.nav-list li:not(:last-child):after {
+    content: "|";
+    }
+#name{
+    font-family:'Baskervville-Regular';
+    font-size: 40px;
+    margin-left: 13em;
+}
+.para1{
+    float: left;
+    color: rgb(101, 204, 218);
+    font-family: sans-serif;
+    margin-left: 36em;
+    margin-top: -3em;
+}
+.button{
+    background-color: rgb(80, 122, 248);
+    margin: 15px;
+    padding: 10px;
+    border-color: white;
+    border-width: 0.5px;
+    width: 130px;
+    border-radius: 5px;
+    color: white;
+    float: right;
+    margin-top: -3em;
+}
+.main{
+    background-color: rgb(21, 44, 109);
+    margin-top: -10px;
+    padding: 5px;
+}
+.nav-list1{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    list-style-type: none;
+}
+.image{
+    text-align: center;
+    position: relative;
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.academics{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.academics1{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.makeMove{
+    background-color: rgb(120, 168, 24);
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.makeMove{
+    display: table;
+    clear: both;
+    content: "";
+    margin-top:10pt;
+    padding: 50px;
+}
+.p1,.p2{
+    float: left;
+    width: 50%;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+.p2{
+    font-size: 17px;
+    margin-left: -100px;
+    
+}
+.row{
+    background-color: gray;
+}
