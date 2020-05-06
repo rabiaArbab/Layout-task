@@ -7,6 +7,7 @@
     color: white;
     width: auto;
     height: 150px;
+    display: block;
 }
 
 ul.nav-list{
@@ -15,11 +16,12 @@ ul.nav-list{
 }
 ul.nav-list li{
     float: left;
-    margin-top: 1em;
+    margin-top: 4em;
     padding-left: 5px;
     padding-right: 5px;
 }
 ul.nav-list li:not(:last-child):after {
+    padding: 0.5em;
     content: "|";
     }
 #name{
@@ -34,28 +36,51 @@ ul.nav-list li:not(:last-child):after {
     margin-left: 36em;
     margin-top: -3em;
 }
-.button{
-    background-color: rgb(80, 122, 248);
-    margin: 15px;
-    padding: 10px;
-    border-color: white;
-    border-width: 0.5px;
-    width: 130px;
-    border-radius: 5px;
+.search{
+    background-color:rgb(80, 122, 248) ;
+    float: left;
+    margin-top: -7em;
+    margin-left: 20em;
+    padding-top: 0.5em;
+    padding-left: 2em;
+    padding-bottom: 0.5em;
+    padding-right: 2em;
     color: white;
-    float: right;
-    margin-top: -3em;
+    width: 120px;
+    height: 40px;
+}
+.link{
+    background-color:rgb(80, 122, 248) ;
+    float: left;
+    margin-top: -7em;
+    margin-left: 30em;
+    padding-top: 0.5em;
+    padding-left: 2em;
+    padding-bottom: 0.5em;
+    padding-right: 2em;
+    color: white;
+    width: 120px;
+    height: 40px;
 }
 .main{
     background-color: rgb(21, 44, 109);
-    margin-top: -10px;
-    padding: 5px;
-}
-.nav-list1{
+    padding: 30px;
     color: white;
-    font-size: large;
-    font-weight: bold;
+    font-size: 20px;
+}
+ul.nav-list1{
     list-style-type: none;
+    font-family: sans-serif;
+}
+ul.nav-list1 li{
+    float: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 1.5em;
+    margin-top: -2.5em;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    height: 4em;
 }
 .image{
     text-align: center;
