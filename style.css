@@ -6,6 +6,10 @@
     width: auto;
     height: auto;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 .hNav{
     background-color: rgb(80, 122, 248);
     color: white;
