@@ -2,12 +2,17 @@
     font-family: "Baskervville-Regular";
     src: url(Baskervville-Regular.otf);
 }
+.mainsection{
+    width: auto;
+    height: auto;
+}
 .hNav{
     background-color: rgb(80, 122, 248);
     color: white;
     width: auto;
     height: 150px;
     display: block;
+    margin-top: -2.5em;
 }
 
 ul.nav-list{
@@ -26,8 +31,8 @@ ul.nav-list li:not(:last-child):after {
     }
 #name{
     font-family:'Baskervville-Regular';
-    font-size: 40px;
-    margin-left: 13em;
+    font-size: 40.5px;
+    margin-left: 14em;
 }
 .para1{
     float: left;
@@ -39,8 +44,8 @@ ul.nav-list li:not(:last-child):after {
 .search{
     background-color:rgb(80, 122, 248) ;
     float: left;
-    margin-top: -7em;
-    margin-left: 20em;
+    margin-top: -5em;
+    margin-left: 18em;
     padding-top: 0.5em;
     padding-left: 2em;
     padding-bottom: 0.5em;
@@ -48,12 +53,14 @@ ul.nav-list li:not(:last-child):after {
     color: white;
     width: 120px;
     height: 40px;
+    border-radius: 0.5em;
+    border:0.1em solid;
 }
 .link{
     background-color:rgb(80, 122, 248) ;
     float: left;
-    margin-top: -7em;
-    margin-left: 30em;
+    margin-top: -5em;
+    margin-left: 28em;
     padding-top: 0.5em;
     padding-left: 2em;
     padding-bottom: 0.5em;
@@ -61,6 +68,8 @@ ul.nav-list li:not(:last-child):after {
     color: white;
     width: 120px;
     height: 40px;
+    border-radius: 0.5em;
+    border:0.1em solid;
 }
 .main{
     background-color: rgb(21, 44, 109);
@@ -132,9 +141,6 @@ ul.nav-list1 li{
     color: rgb(34, 151, 197);
     font-size: 40px;
 }
-table,td{
-    border: 2px solid black;
-}
 .table1 .data1,.data2,.data3{
     float: left;
     width: 330px;
@@ -154,7 +160,7 @@ table,td{
 }
 .data3{
     margin-left: 56em;
-    margin-top: -22.9em;
+    margin-top: -22.6em;
 }
 .data4{
     float: left;
@@ -187,4 +193,116 @@ table,td{
     padding: 2em;
     margin-top: 2em;
     margin-left: 4em;
+}
+.table2{
+    width: 280px;
+    height: 280px;
+    float: left;
+}
+.theader{
+    float: left;
+    width: 280px;
+    height: 30px;
+    margin-left: 0em;
+    font-size: 24px;
+    color: rgb(24, 24, 24);
+}
+.date{
+    float: left;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(1, 107, 18);
+    border: 2px solid rgb(156, 156, 156);
+    border-radius: 0.5em;
+}
+.infolist{
+    list-style-type: none;
+    float: left;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3em;
+    margin-top: -5em;
+}
+.p4{
+    float: left;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1em;
+    color: rgb(55, 132, 250);
+}
+number{
+    font-size: 40px;
+}
+.buttons{
+    float: left;
+    padding: 1em;
+}
+.b1{
+    width: 280px;
+    height: 50px;
+    margin: 1em;
+    border-color: rgb(0, 68, 255);
+    background-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0.5px;
+    color:rgb(0, 68, 255);
+}
+.footer{
+    width: 100%;
+    height: 800px;
+    padding: 0.6em;
+    background-color: rgb(20, 20, 20);
+    float: left;
+    color: rgb(206, 206, 206);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fl1,.fl2,.fl3,.fl4,.fl5,.fl6,.fl7, ul{
+    list-style-type: none;
+}
+.fl1,.fl2,.fl3,.fl4,.fl5,.fl6,.fl7{
+    line-height: 1.5em;
+}
+.fsection1,.fsection2,.fsection3,.fsection4,.fsection5,.fsection6{
+    float: left;
+}
+.fh1,.fh2,.fh3,.fh4,.fh5,.fh6{
+    margin-left: 2.1em;
+}
+.fsection2{
+    margin-top: 17em;
+    margin-left: -20em;
+}
+.fsection4{
+    margin-top: 10em;
+    margin-left: -14em;
+}
+.fsection5{
+    margin-left: 2em;
+}
+.fsection6{
+    margin-top: 11em;
+    margin-left: -14em;
+}
+.fl7{
+    float: right;
+    margin-right: 10em;
+    font-weight: bold;
+    line-height: 2em;
+}
+.fp{
+    float: left;
+}
+.fpc{
+    float: left;
+    margin-top: 5em;
+    margin-left: 20em;
+}
+.line1{
+    float: left;
+    width: 99%;
+    margin-top: 15em;
 }

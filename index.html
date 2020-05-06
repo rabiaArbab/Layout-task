@@ -7,7 +7,8 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <!--Header section-->
+    <section class="mainsection">
+        <!--Header section-->
     <header class="hNav">
         <!--Navigation titles-->
         <section class="navigation1">
@@ -96,17 +97,21 @@
                 </td>
                 <td class="data6">
                     <table class="table2">
-                        <th>
+                        <th class="theader">
                             Upcoming School Events
                         </th>
                         <tr>
-                            <td>JAN 20</td>
-                            <td>Student Art Show</td>
+                            <td class="date">JAN<br><number>20</number></td>
+                            <td class="p4"><p>Student Art Show</p></td>
                         </tr>
                         <tr>
-                            <td>JAN 30</td>
-                            <td>
-                                Graduate Studies Admission Information Session
+                            <td class="date">JAN<br><number>30</number></td>
+                            <td class="p4">
+                                <ul class="infolist">
+                                    <li>Graduate Studies</li>
+                                    <li>Admission Information</li>
+                                    <li>Session</li>
+                                </ul>
                             </td>
                         </tr>
                     </table>
@@ -117,17 +122,18 @@
     <!-- Table section ends here -->
     <!-- Informative Buttons -->
     <section class="buttons">
-        <button>VISIT SIMMONS</button>
-        <button>APPLY</button>
-        <button>REQUEST INFORMATION</button>
-        <button>SUPPORT SIMMONS</button>
+        <button class="b1">VISIT SIMMONS</button>
+        <button class="b1">APPLY</button>
+        <button class="b1">REQUEST INFORMATION</button>
+        <button class="b1">SUPPORT SIMMONS</button>
     </section>
     <!--buttons section ends here-->
     <!-- Footer Section Starts from this point -->
     <section class="footer">
         <footer>
-            <h3>Academics</h3>
-            <ul>
+            <div class="fsection1">
+                <h3 class="fh1">Academics</h3>
+                <ul class="fl1">
                 <li>Undergraduate Programs</li>
                 <li>Graduate Programs</li>
                 <li>Certificate Programs</li>
@@ -137,22 +143,28 @@
                 <li>Research</li>
                 <li>Schools</li>
             </ul>
-            <h3>Admission & Financial Aid</h3>
-            <ul>
+            </div>
+            <div class="fsection2">
+                <h3 class="fh2 ">Admission & Financial<br>Aid</h3>
+                <ul class="fl2">
                 <li>Undergraduate Admission</li>
                 <li>Graduate Admission</li>
                 <li>Student Financial Services</li>
                 <li>Visit Simmons</li>
                 <li>Request Information</li>
             </ul>
-            <h3>Student Life</h3>
-            <ul>
+            </div>
+            <div class="fsection3">
+                <h3 class="fh3">Student Life</h3>
+                <ul class="fl3">
                 <li>Life at Simmons</li>
                 <li>Activities & Organizations</li>
                 <li>Student Services</li>
             </ul>
-            <h3>About Simmons</h3>
-            <ul>
+            </div>
+            <div class="fsection4">
+                <h3 class="fh4">About Simmons</h3>
+                <ul class="fl4">
                 <li>Why Simmons</li>
                 <li>Leadership</li>
                 <li>Work at Simmons</li>
@@ -161,15 +173,19 @@
                 <li>Administrative Offices and Services</li>
                 <li>Contact Us</li>
             </ul>
-            <h3>Alumnae/i & Friends</h3>
-            <ul>
+            </div>
+            <div class="fsection5">
+                <h3 class="fh5">Alumnae/i & Friends</h3>
+                <ul class="fl5">
                 <li>Connect</li>
                 <li>Give</li>
                 <li>Events</li>
                 <li>Alumnae/i Directory</li>
             </ul>
-            <h3>Resources For</h3>
-            <ul>
+            </div>
+            <div class="fsection6">
+                <h3 class="fh6">Resources For</h3>
+                <ul class="fl6">
                 <li>Future Undergraduates</li>
                 <li>Admitted Undergraduates</li>
                 <li>Students</li>
@@ -179,13 +195,20 @@
                 <li>Alumnae/i and Friends</li>
                 <li>For Media</li>
             </ul>
-            <p>Athletics</p>
-            <p>Directories</p>
-            <p>Library</p>
-            <p>Contact Webmaster</p>
-            <p>© 2016 Simmons College | 300 The Fenway, Boston, MA 02115 | 617-521-2000</p>
+            </div> 
+            <div>
+                <ul class="fl7">
+                    <li>Athletics</li>
+                    <li>Directories</li>
+                    <li>Library</li>
+                    <li>Contact Webmaster</li>
+                </ul>
+            </div>
+            <hr class="line1">
+            <p class="fpc">© 2016 Simmons College | 300 The Fenway, Boston, MA 02115 | 617-521-2000</p>
         </footer>
     </section>
     <!-- Footer Section ends here!! -->
+    </section>  
 </body>
 </html>
